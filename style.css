@@ -1,0 +1,47 @@
+#main-title {
+  color: cornflowerblue;
+}
+
+#square {
+  width: 4rem;
+  height: 4rem;
+  background-color: blue;
+}
+
+.radius-xl {
+  border-radius: 1rem;
+}
+
+.black-border {
+  border: 2px solid black;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+#ranma-img {
+  width: 10rem;
+}
+
+.card {
+  background-color: bisque;
+  font-family: "Lucida Sans";
+  font-size: 0.8rem;
+  border-radius: 5px;
+  width: 7rem;
+  text-align: center;
+  padding-bottom: 1rem;
+  img {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+}
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
